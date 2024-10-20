@@ -1,0 +1,394 @@
+@font-face {
+    font-family: 'newsreader';
+    src: url('/fonts/Newsreader-VariableFont_opsz,wght.ttf');
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+/* main */
+
+.nav__name--style {
+    color: #426B1F;
+    font-size: 20px;
+    font-weight: 570;
+    font-family: 'newsreader';
+    position: relative;
+    top: 25px;
+    left: 50px;
+    width: 150px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-links {
+    font-size: 12px;
+    font-family: 'inter';
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-links-basket {
+    background-color: #426B1F;
+    width: 90px;
+    height: 30px;
+    font-weight: 550;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    margin-right: 70px;
+}
+
+.main__motto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__motto--text {
+    font-family: 'newsreader';
+    font-size: 30px;
+    word-spacing: -2px;
+    margin: 60px 0px 0px 0px;
+}
+
+.main__motto--button {
+    background: #426B1F;
+    margin-top: 20px;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    align-content: center;
+    border-radius: 4px;
+    margin-bottom: 90px;
+}
+
+.main__motto__button--decoration {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.images {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.images__caption {
+    font-family: 'inter';
+    font-size: 14px;
+    display: block;
+    width: 624px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+
+.images__caption__bold {
+    font-weight: 550;
+}
+
+.main__about {
+    display: flex;
+    justify-content: start;
+}
+
+.main__about-text {
+    font-family: 'inter';
+    font-size: 14px;
+    margin-left: 241px;
+    width: 190px;
+}
+
+.main__text {
+    font-family: 'inter';
+    font-size: 18px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+}
+
+.main__text-first, .main__text-second {
+    margin-bottom: 25px;
+}
+
+/* basket */
+
+.main__title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__title__basket {
+    font-family: 'newsreader';
+    font-size: 50px;
+    margin-left: 65px;
+    margin-top: 45px;
+}
+
+.main__title__items {
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 55px;
+}
+
+.main__tomato, .main__ginger, .main__onion {
+    background: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    width: 700px;
+    border-radius: 24px;
+    display: flex;
+    margin: 30px 0px 30px 65px;
+}
+
+.image__tomato, .image__ginger, .image__onion {
+    border-top-left-radius:24px;
+    border-bottom-left-radius:24px;
+}
+
+.amount {
+    display: flex;
+    background: #ffffff;
+    width: 105px;
+    height: 25px;
+    border: 1px solid #6D6D6D;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 5px 20px;;
+}
+
+.price {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main__list__name {
+    font-family: 'inter';
+    font-weight: 600;
+    margin: 20px 0px 5px 20px;
+}
+
+.main__list__tomato--price, .main__list__ginger--price, .main__list__onion--price {
+    font-family: 'inter';
+    font-weight: 600;
+    color: #426B1F;
+    margin: 0px 0px 5px 20px;
+}
+
+.total-price__tomato {
+    font-family: 'inter';
+    font-weight: 600;
+    margin: 20px 0px 5px 355px;
+}
+
+.total-price__ginger {
+    font-family: 'inter';
+    font-weight: 600;
+    margin: 20px 0px 5px 368px;
+}
+
+.total-price__onion {
+    font-family: 'inter';
+    font-weight: 600;
+    margin: 20px 0px 5px 370px;
+} 
+
+.aside {
+    background: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    border-radius: 24px;
+    width: 395px;
+    height: 318px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.container--aside {
+    align-self: start;
+    margin: 30px 80px 0px 170px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 20px 180px;
+}
+
+.aside__main--text {
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 570;
+    margin: 20px 0px 20px 20px;
+}
+
+.aside__total {
+    font-family: 'inter';
+    font-size: 16px;
+    margin: 18px 0px;
+}
+
+.aside__price {
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 580;
+    margin: 18px 0px 0px 0px;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-around;
+    background: #426B1F;
+    border-radius: 8px;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    margin: 30px 50px 0px 50px;
+}
+
+.payment__button, .payment__next {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'inter';
+    font-size: 16px;
+}
+
+/* Newstand */
+
+.main__produce {
+    display: flex;
+    gap: 20px;
+}
+
+.main__produce-text {
+    font-family: 'newsreader';
+    font-size: 50px;
+    margin-left: 75px;
+    margin-top: 45px;
+}
+
+.main__produce-text__small {
+    font-family: 'inter';
+    font-size: 14px;
+    margin-top: 72px;
+}
+
+.main__produce-text__bold {
+    font-weight: 540;
+}
+
+.main__top {
+    display: flex;
+}
+
+.main__buttons {
+    display: flex;
+    width: 800px;
+    height: 28px;
+    margin-top: 65px;
+    justify-content: end;
+    margin-left: 180px;
+    gap: 10px;
+}
+
+a.main__buttons__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.main__buttons__def {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 550;
+    background: #426B1F;
+    border-radius: 20px;
+    height: 28px;
+    width: 80px;
+    text-align: center;
+    align-content: center;
+}
+
+.main__buttons__az {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 550;
+    border: 1px solid #C2C2C2;
+    height: 28px;
+    width: 45px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: center;
+}
+
+.main__buttons__list-view {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 550;
+    border: 1px solid #C2C2C2;
+    height: 28px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: center;
+}
+
+.produce__container {
+    display: flex;
+    gap: 30px;
+}
+
+.produce__tomato {
+    margin-left: 75px;
+}
+
+.produce__tomato, .produce__ginger {
+    background: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    border-radius: 24px;
+    height: 350px;
+}
+
+.image__angle {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.produce__name {
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.produce__price {
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 550;
+    color: #426B1F;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.produce__place {
+    font-family: 'inter';
+    font-size: 15px;
+    color: #6D6D6D;
+    margin-left: 15px;
+    margin-top: 20px;
+}
